@@ -19,8 +19,8 @@ Route::get('/trangchu', 'PageController@index');
 
 
 Route::group(['prefix'=>'/trangchu/danhsachkhoahoc'],function(){
-	Route::get('/', 'KhoahocController@index');
+	Route::get('/', 'KhoahocController@index')->name('danhsachkhoahoc');
 	Route::get('/chitiet/{id}', 'KhoahocController@getChitietkhoahoc')->name('chitietkhoahoc');
 	Route::get('/themkhoahoc', 'KhoahocController@themkhoahoc')->name('themkhoahoc');
-	Route::get('/xoakhoahoc/{id}', 'KhoahocController@xoakhoahoc')->name('xoakhoahoc');
+	Route::get('/xoakhoahoc/{id}', 'KhoahocController@xoakhoahoc')->name('khoahoc.xoakhoahoc');
 });

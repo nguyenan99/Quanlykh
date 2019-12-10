@@ -229,7 +229,7 @@
                   <td>
                     <a href="{{route('chitietkhoahoc', $kh->id)}}" class="btn btn-primary">Chi tiết</a>
                     <button class="btn btn-info">Sửa</button>
-                    <a href="{{route('xoakhoahoc', $kh->id)}}"><button onclick="return xacnhanxoa(&#39;Bạn Có Chắc Muốn Xóa Không&#39;)" type=submit id=delete class="btn btn-danger">Xóa</button></a>
+                     <a href="{{route('khoahoc.xoakhoahoc', $kh->id)}}"><button onclick="return xacnhanxoa(&#39;Bạn Có Chắc Muốn Xóa Không&#39;)" type=submit id=delete class="btn btn-danger">Xóa</button></a>
                   </td>
                 </tr>
                 @endforeach

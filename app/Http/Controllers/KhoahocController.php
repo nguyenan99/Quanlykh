@@ -24,8 +24,8 @@ class KhoahocController extends Controller
 
 
     public function xoakhoahoc($id){
-    	$khoahoc = Khoahoc::findorfail($id);
-    	$khoahoc->delete();
-    	return redirect()->route('trangchu/danhsachkhoahoc');
+        $khoahoc = Khoahoc::findorfail($id);
+        $khoahoc->delete();
+        return redirect()->route('danhsachkhoahoc');
     }
 }
