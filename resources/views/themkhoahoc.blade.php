@@ -140,10 +140,10 @@
             </span>
                 </a>
                  <ul class="treeview-menu">
-                    <li><a href="http://dsd04.000webhostapp.com/ds_quytrinh"><i class="fa fa-circle-o"></i>PHP</a></li>
-                    <li><a href="http://dsd04.000webhostapp.com/tao_quytrinh"><i class="fa fa-circle-o"></i>Java</a></li>
-                    <li><a href="http://dsd04.000webhostapp.com/congviec_quytrinh"><i class="fa fa-circle-o"></i>C#</a></li>
-                    <li><a href="http://dsd04.000webhostapp.com/taocongviec_quytrinh"><i class="fa fa-circle-o"></i>Android</a></li> 
+                    <li><a href="#"><i class="fa fa-circle-o"></i>PHP</a></li>
+                    <li><a href="h#"><i class="fa fa-circle-o"></i>Java</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>C#</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Android</a></li> 
                 </ul>
             </li>
 
